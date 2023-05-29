@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../public/assets/fonts/Satoshi-Light.otf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../public/assets/fonts/Satoshi.otf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../public/assets/fonts/Satoshi-Medium.otf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../public/assets/fonts/Satoshi-Bold.otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../public/assets/fonts/Satoshi-Black.otf');
+  font-weight: 900;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  font-family: 'Satoshi', -apple-system, BlinkMacSystemFont, Ubuntu, sans-serif !important;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background: #ffeed9;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  font-size: 16px;
+  font-weight: normal;
+  color: #594f43;
+  line-height: 1.5;
+}
